@@ -1,4 +1,4 @@
-package day14.day19.task2;
+package day19.task2;
 
 import java.io.File;
 import java.io.FileNotFoundException;

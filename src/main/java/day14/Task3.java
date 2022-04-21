@@ -12,15 +12,11 @@ public class Task3 {
        // parseFileToObjList(file);
         System.out.println(parseFileToObjList(file));
     }
-
     public static List<Person> parseFileToObjList(File file) {
         List<Person> people = new ArrayList<>();
 
-
         try {
             Scanner scanner = new Scanner(file);
-
-
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
 
@@ -30,7 +26,6 @@ public class Task3 {
                     throw new IllegalArgumentException();
                 Person currentPerson = new Person(person[0], Integer.parseInt(person[1]));
                 people.add(currentPerson);
-
 
             }
             scanner.close();

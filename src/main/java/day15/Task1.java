@@ -33,11 +33,8 @@ public class Task1 {
 
                 String[] shoes = line.split(";");
 
-
                 if (Integer.parseInt(shoes[2]) == 0)
                     pw.println(shoes[0] + ", " + shoes[1] + ", " + shoes[2]);
-
-
             }
             scanner.close();
             pw.close();
